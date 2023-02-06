@@ -27,6 +27,7 @@ body {
   
   #photo {
     text-align: center;
+
     -webkit-mask-image: -webkit-gradient(
       linear,
       left top,
@@ -104,6 +105,8 @@ body {
   img {
     width: 420px;
     height: 420px;
+    padding: 20px;
+    box-sizing: border-box;
   }
   
   .align-contact-data {
